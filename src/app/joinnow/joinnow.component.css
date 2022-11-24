@@ -1,0 +1,24 @@
+.joinnow img
+{
+	width: 100%;
+	height: 900px;
+	object-position: center;
+	object-fit: cover;
+}
+
+.joincontent
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-40%, -40%);
+}
+
+@media screen and (max-width:600px)
+{
+    .joinnow
+  {
+    background-color:whitesmoke;
+    padding: 140px 30px;
+  }
+}

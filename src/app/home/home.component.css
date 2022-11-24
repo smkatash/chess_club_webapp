@@ -1,0 +1,40 @@
+.home img
+{
+	width: 100%;
+	height: 900px;
+	object-position: center;
+	object-fit: cover;
+}
+
+.homecontent
+{
+	position: absolute;
+	font-family: Didot;
+	top: 75%;
+	left: 75%;
+	transform: translate(-40%, -40%);
+}
+
+.homecontent h1
+{
+	color:  rgb(32, 134, 137);
+	font-size: 30px;
+	font-family: Didot;
+}
+
+.homecontent a
+{
+	margin-top: 10px;
+}
+
+@media screen and (max-width:600px)
+{
+	.home img
+{
+	height: 700px;
+}
+	.homecontent h1
+	{
+		font-size: 40px;
+	}
+}
